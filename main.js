@@ -75,9 +75,9 @@ const containerPost = document.getElementById('container');
 
 posts.forEach((posts)=>{
 
-if(posts.author.image === 0){
+if(posts.author.image === null){
 
-    const nomeCompleto = post.author.image.split('')
+    const nomeCompleto = posts.author.image.split('')
     const name = nomeCompleto[0].charAt(0)
     const surname = nomeCompleto[1].charAt(0)
 
