@@ -67,6 +67,18 @@ const posts = [
     }
 ];
 
+//creiamo un ciclo for per i like 
+
+for(let i = 1; i <= posts.length; i++){
+
+    //creo due let uno per button e l'altro per il like
+
+    let btnLike = document.getElementById('like-btn-' + i)
+    console.log(btnLike);
+    let like = document.getElementById('like-counter-' + i)
+    console.log(like);
+}
+
 
 
 
