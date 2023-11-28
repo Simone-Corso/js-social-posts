@@ -68,14 +68,6 @@ const posts = [
 ];
 
 
-// creo una array per la lista da stampare
-
-const listaPost = []
-
-const containerPost = document.getElementById('container');
-console.log(containerPost);
-
-
 
 
 
