@@ -69,7 +69,7 @@ const posts = [
 
 //creo la variabile per la lista 
 
-const postLista = []
+const postLista = [0]
 
 const containerPost = document.getElementById('container');
 
@@ -83,6 +83,12 @@ if(posts.author.image === 0){
 
 }
 })
+
+for (let i; i = 0 < posts.length; i++){
+
+    posts.innerHTML += '' ;
+
+}
 
 containerPost.innerHTML += `
 
