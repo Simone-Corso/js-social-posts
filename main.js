@@ -78,7 +78,7 @@ containerPost.innerHTML += `
                         <img class="profile-pic" src="https://unsplash.it/300/300?image=15" alt="Phil Mangione">                    
                     </div>
                     <div class="post-meta__data">
-                        <div class="post-meta__author">Phil Mangione</div>
+                        <div class="post-meta__author">${posts.author.name}</div>
                         <div class="post-meta__time">4 mesi fa</div>
                     </div>                    
                 </div>
