@@ -86,7 +86,7 @@ if(posts.author.image === 0){
 
 for (let i = 0; i < posts.length; i++){
 
-    posts.innerHTML += '.post' ;
+    posts.innerHTML += 'container' ;
 
 }
 
