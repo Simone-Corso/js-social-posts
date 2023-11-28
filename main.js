@@ -77,7 +77,15 @@ for(let i = 1; i <= posts.length; i++){
     console.log(btnLike);
     let like = document.getElementById('like-counter-' + i)
     console.log(like);
-}
+
+    //creo un evento per far una funzione per il click
+
+    btnLike.addEventListener('click', likeClick)
+
+    function likeClick(){
+        if()
+    }
+};
 
 
 
@@ -147,4 +155,4 @@ for(let i = 1; i <= posts.length; i++){
         </div>
 
     </div>
-    `/*
+    `*/
