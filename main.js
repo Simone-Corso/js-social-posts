@@ -86,7 +86,7 @@ if(posts.author.image === 0){
 
 for (let i = 0; i < posts.length; i++){
 
-    posts.innerHTML += 'container' ;
+    posts.innerHTML += 'post' ;
 
 }
 
@@ -99,7 +99,7 @@ containerPost.innerHTML += `
                         <img class="profile-pic" src="https://unsplash.it/300/300?image=15" alt="Phil Mangione">                    
                     </div>
                     <div class="post-meta__data">
-                        <div class="post-meta__author">${posts.author.name}</div>
+                        <div class="post-meta__author">${post.author.name}</div>
                         <div class="post-meta__time">4 mesi fa</div>
                     </div>                    
                 </div>
