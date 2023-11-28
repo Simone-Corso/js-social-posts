@@ -99,7 +99,7 @@ containerPost.innerHTML += `
                         <img class="profile-pic" src="https://unsplash.it/300/300?image=15" alt="Phil Mangione">                    
                     </div>
                     <div class="post-meta__data">
-                        <div class="post-meta__author">${post.author.name}</div>
+                        <div class="post-meta__author">${posts.author.name}</div>
                         <div class="post-meta__time">4 mesi fa</div>
                     </div>                    
                 </div>
@@ -135,7 +135,12 @@ containerPost.innerHTML += `
 
 //creiamo un ciclo for per i like 
 
-for(let i = 1; i <= posts.length; i++){
+for (let i = 0; i < posts.length; i++){
+
+    posts.innerHTML += 'posts' ;
+
+}
+
 
     //creo due let uno per button e l'altro per il like
 
@@ -144,6 +149,8 @@ for(let i = 1; i <= posts.length; i++){
     let like = document.getElementById('like-counter-' + i)
     console.log(like);
 
+
+
     //creo un evento per far una funzione per il click
 
     btnLike.addEventListener('click', likeClick)
@@ -151,9 +158,19 @@ for(let i = 1; i <= posts.length; i++){
     function likeClick(){
         if(like.includes(i)){
             like.classList.remove('like')
-        }
-    }
+            likeCounter.innerHTML (like);
+            btnLike.classList.remove('like-button--liked');
+            let toRemove = likedList.indexOf(i);
+            likedList.splice(toRemove, 1)
+        }else{
+            btnLike.classList.add('like-button--liked');
+        likeCounter.innerHTML ++;
+        likedList.push(i);
+        console.log(likedList)
+        } 
 };
+
+
 
 
 
