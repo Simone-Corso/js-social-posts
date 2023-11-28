@@ -69,22 +69,6 @@ const posts = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //creiamo un ciclo for per i like 
 
 for(let i = 1; i <= posts.length; i++){
