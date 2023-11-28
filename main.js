@@ -84,9 +84,9 @@ if(posts.author.image === 0){
 }
 })
 
-for (let i; i = 0 < posts.length; i++){
+for (let i = 0; i < posts.length; i++){
 
-    posts.innerHTML += '' ;
+    posts.innerHTML += '.post' ;
 
 }
 
