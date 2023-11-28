@@ -67,6 +67,32 @@ const posts = [
     }
 ];
 
+
+// creo una array per la lista da stampare
+
+const listaPost = []
+
+const containerPost = document.getElementById('container');
+console.log(containerPost);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //creiamo un ciclo for per i like 
 
 for(let i = 1; i <= posts.length; i++){
@@ -83,7 +109,9 @@ for(let i = 1; i <= posts.length; i++){
     btnLike.addEventListener('click', likeClick)
 
     function likeClick(){
-        if()
+        if(like.includes(i)){
+            like.classList.remove('like')
+        }
     }
 };
 
