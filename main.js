@@ -67,7 +67,22 @@ const posts = [
     }
 ];
 
+//creo la variabile per la lista 
+
+const postLista = []
+
 const containerPost = document.getElementById('container');
+
+posts.forEach(posts)=> {
+
+if(posts.author.image === 0){
+
+    const nomeCompleto = post.author.image.split('')
+    const name = nomeCompleto[0].charAt(0)
+    const surname = nomeCompleto[1].charAt(0)
+    
+}
+}
 
 containerPost.innerHTML += `
 
